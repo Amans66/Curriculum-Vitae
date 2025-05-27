@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aman Singh - Cybersecurity Intern CV</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f3f4f6;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 20px;
+    }
+    .cv-container {
+      display: flex;
+      width: 100%;
+      max-width: 900px;
+      background-color: #ffffff;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      flex-direction: column;
+    }
+    @media (min-width: 768px) {
+      .cv-container {
+        flex-direction: row;
+      }
+    }
+    .left-column {
+      background-color: #2d3748;
+      color: #ffffff;
+      padding: 32px;
+      flex: 1;
+      min-width: 280px;
+    }
+    .right-column {
+      background-color: #ffffff;
+      color: #2d3748;
+      padding: 32px;
+      flex: 2;
+    }
+    h1 {
+      font-size: 2.25rem;
+      font-weight: 700;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+      color: #4a5568;
+    }
+    .left-column h2 {
+      color: #ffffff;
+    }
+    .section-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: #2d3748;
+    }
+    .left-column .section-title {
+      color: #ffffff;
+    }
+    .list-item {
+      margin-bottom: 0.5rem;
+    }
+    .project-item, .volunteer-item {
+      margin-bottom: 1.5rem;
+    }
+    .repo-link {
+      color: #3182ce;
+      text-decoration: underline;
+    }
+    .profile-pic-container {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin: 0 auto 24px auto;
+    }
+    .profile-pic-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+<body>
+  <div class="cv-container">
+    <div class="left-column rounded-l-xl md:rounded-r-none rounded-t-xl">
+      <div class="profile-pic-container">
+        <img src="WhatsApp Image 2025-01-20 at 23.51.08.jpeg" alt="Aman Singh Profile Picture">
+      </div>
+      <div class="text-center mb-8">
+        <h1 class="text-white">Aman Singh</h1>
+        <p class="text-gray-300 text-lg">Cybersecurity Intern</p>
+      </div>
+      <div class="mb-8">
+        <h2 class="section-title">Contact Details</h2>
+        <p class="mb-2">&#9993; amansinghbhadauria2005@gmail.com</p>
+        <p class="mb-2">&#9742; +91 7291810034</p>
+        <p class="mb-2">&#128205; Agra, Uttar Pradesh</p>
+        <p class="mb-2">&#128279; <a href="https://linkedin.com/in/aman-singh66" class="repo-link">LinkedIn</a></p>
+        <p>&#128279; <a href="https://github.com/Amans66" class="repo-link">GitHub</a></p>
+      </div>
+      <div class="mb-8">
+        <h2 class="section-title">Education</h2>
+        <p class="font-semibold">B.Tech in Computer Science</p>
+        <p>Lovely Professional University | 2023 – Present</p>
+        <p class="mt-2 font-semibold">Higher Secondary</p>
+        <p>Kendriya Vidyalaya, Gurgaon | 80%</p>
+        <p class="mt-2 font-semibold">Matriculation</p>
+        <p>Kendriya Vidyalaya, Gurgaon | 80%</p>
+      </div>
+      <div>
+        <h2 class="section-title">Technical Skills</h2>
+        <ul class="list-disc list-inside space-y-1">
+          <li>Languages: Python, C, Java</li>
+          <li>Web: HTML5, CSS</li>
+          <li>Databases: MySQL</li>
+          <li>Security Tools: Wireshark, Nmap, Kali Linux</li>
+          <li>Others: VS Code, Windows OS</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="right-column rounded-r-xl md:rounded-l-none rounded-b-xl">
+      <div class="mb-8">
+        <h2 class="section-title">Professional Summary</h2>
+        <p>
+          Passionate and hands-on Computer Science undergraduate with a strong interest in cybersecurity, encryption tools, and network analysis. Built and deployed a two-layer encryption tool (ShieldCrypt) and worked with tools like Wireshark, Nmap, and Kali Linux. Skilled at simplifying technical topics, mentoring peers, and collaborating on fast-paced projects. Looking to grow as a Cyber Security Analyst or Trainer by contributing to real-world cyber defense initiatives at Hacky Security.
+        </p>
+      </div>
+
+      <div class="mb-8">
+        <h2 class="section-title">Projects</h2>
+        <div class="project-item">
+          <strong>ShieldCrypt: Two-Level Encryption Tool</strong>
+          <p>Tech: Python, AES, ROT13, pyfiglet</p>
+          <p>Command-line app with Base64 + AES encryption and ROT13. ➤ Simulates real-world encryption layers used in secure file transfers.</p>
+          <a class="repo-link" href="https://github.com/Amans66/ShieldCrypt" target="_blank">GitHub Repo</a>
+        </div>
+        <div class="project-item">
+          <strong>Military Database Management System</strong>
+          <p>Tech: Python, MySQL</p>
+          <p>Manages soldier records and postings. ➤ Demonstrates access control and CRUD in secure environments.</p>
+          <a class="repo-link" href="https://github.com/Amans66/Military-Database-management-System" target="_blank">GitHub Repo</a>
+        </div>
+        <div class="project-item">
+          <strong>Fashion Hub Website</strong>
+          <p>Tech: HTML, CSS</p>
+          <p>Responsive e-commerce UI with product uploads and display system.</p>
+          <a class="repo-link" href="https://github.com/Amans66/Fashion-Hub" target="_blank">GitHub Repo</a>
+        </div>
+      </div>
+
+      <div class="mb-8">
+        <h2 class="section-title">Volunteer Experience</h2>
+        <ul class="list-disc list-inside">
+          <li>HackFest 2025 (Regional Coordinator) – SAP x LPU</li>
+          <li>ByteBash Hackathon – Coordinator</li>
+          <li>Sunburn University Event – Coordinator</li>
+        </ul>
+      </div>
+
+      <div class="mb-8">
+        <h2 class="section-title">Certifications</h2>
+        <ul class="list-disc list-inside">
+          <li>Intro to Cybersecurity – Great Learning (2023)</li>
+          <li>Responsive Web Design – FreeCodeCamp (2023)</li>
+          <li>Social Networks – NPTEL (2025)</li>
+        </ul>
+      </div>
+
+      <div class="mb-8">
+        <h2 class="section-title">Achievements</h2>
+        <ul class="list-disc list-inside">
+          <li>2-Star Python – HackerRank</li>
+          <li>Novice Badge – HackerEarth</li>
+          <li>HackFest Volunteer – 2025</li>
+        </ul>
+      </div>
+
+      <div class="mb-8">
+        <h2 class="section-title">Why Cybersecurity?</h2>
+        <p>
+          I enjoy breaking down how systems work—and how they can be broken into. From exploring ethical hacking labs to building encryption tools and organizing hackathons, cybersecurity gives me the perfect blend of challenge and impact. I'm now excited to level up by working with industry experts at Hacky Security.
+        </p>
+      </div>
+
+      <div>
+        <h2 class="section-title">Power Skills</h2>
+        <ul class="list-disc list-inside">
+          <li>Team Collaboration & Leadership</li>
+          <li>Critical Thinking & Time Management</li>
+          <li>Proactive Communication</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
