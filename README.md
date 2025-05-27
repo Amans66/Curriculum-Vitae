@@ -9,7 +9,7 @@ This repository contains my personal **Curriculum Vitae (CV)** built using HTML 
 
 ## 🔹 Live Preview
 
-👉 [Click here to view my CV online](https://amans66.github.io/curriculum-vitae/)
+👉 [Click here to view my CV online](https://amans66.github.io/Curriculum-Vitae/)
 
 ## 🔹 About Me
 
